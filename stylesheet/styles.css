@@ -58,8 +58,8 @@ ul a:hover{
 #uni{
   width: 100%;
   height: auto;
-  opacity: 0.5;
-  filter: contrast(80%);
+  opacity: 0.6;
+  filter: contrast(90%);
 }
 .container{
   position: relative;
