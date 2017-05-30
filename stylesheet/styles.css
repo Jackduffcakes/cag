@@ -109,6 +109,9 @@ ul a:hover{
   font-family: sans-serif;
   margin: 0px;
 }
+.arrow{
+  float: right;
+}
 .donationexplanation{
   font-weight: bold;
   font-size: 18px;
