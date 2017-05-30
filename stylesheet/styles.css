@@ -55,6 +55,27 @@ li {
 ul a:hover{
   color: #3a6bc1;
 }
+#uni{
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+  filter: contrast(80%);
+}
+.container{
+  position: relative;
+}
+.centertext{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.61vw;
+  font-weight: 900;
+  text-shadow: 0px 1px 1px #000;
+  font-family: sans-serif;
+}
+
 .content{
   font-size: 18px;
   font-weight: normal;
@@ -83,26 +104,6 @@ ul a:hover{
   padding-left: 10px;
   font-family: sans-serif;
   margin: 0px;
-}
-#uni{
-  width: 100%;
-  height: auto;
-  opacity: 0.5;
-  filter: contrast(80%);
-}
-.centertext{
-  width: 60%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3.61vw;
-  font-weight: 900;
-  text-shadow: 0px 1px 1px #000;
-  font-family: sans-serif;
-}
-.container{
-  position: relative;
 }
 .donationexplanation{
   font-weight: bold;
