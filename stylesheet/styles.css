@@ -71,6 +71,20 @@ li {
 ul a:hover{
   color: #3a6bc1;
 }
+.quote{
+  font-size: 2vw;
+  color: darkblue;
+  padding-left: 25px;
+  font-style: italic;
+  font-family: 'Slabo 27px', serif;
+  font-weight: bold;
+}
+.underquote{
+  font-size: 1.7vw;
+  padding-left: 55px;
+  font-weight: 600;
+
+}
 #uni{
   width: 100%;
   height: auto;
