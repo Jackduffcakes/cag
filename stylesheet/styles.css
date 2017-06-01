@@ -140,7 +140,7 @@ ul a:hover{
   /* background styles */
 
 padding: 15px 25px;
-background-color: darkblue; /*for compatibility with older browsers*/
+background-color: darkblue;
 background-image: linear-gradient(darkblue,blue);
 
 /* text styles */
