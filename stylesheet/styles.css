@@ -116,6 +116,21 @@ ul a:hover{
   font-family: sans-serif;
   color: #d3e4ff;
 }
+.lib{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.61vw;
+  font-weight: 900;
+  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
+  font-family: sans-serif;
+  color: #d3e4ff;
+}
+.libpic{
+  opacity: 0.5;
+}
 .ctext1{
   width: 68%;
   position: absolute;
