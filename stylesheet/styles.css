@@ -4,6 +4,22 @@ body {
   padding: 0px 0px;
   background-image: url("school.png");
 }
+
+.frontcontainer{
+  position: relative;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  filter: brightness(100%);
+  position: relative;
+  z-index: 1;
+}
+.flag{
+  width: 20%;
+  position: absolute;
+  z-index: 2;
+}
 .webpage-title{
   text-align: left;
   font-size: 22px;
@@ -58,8 +74,6 @@ ul a:hover{
 #uni{
   width: 100%;
   height: auto;
-  opacity: 0.6;
-  filter: contrast(90%);
 }
 .container{
   position: relative;
@@ -72,8 +86,83 @@ ul a:hover{
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
   font-weight: 900;
-  text-shadow: 0px 3px 3px #000;
+  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
   font-family: sans-serif;
+  color: #d3e4ff;
+}
+.talent{
+  width: 60%;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 3.61vw;
+  font-weight: 900;
+  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
+  font-family: sans-serif;
+  color: #d3e4ff;
+}
+.ctext1{
+  width: 68%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.8vw;
+  font-weight: 900;
+  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
+  font-family: sans-serif;
+  color: #d3e4ff;
+  z-index: 3;
+}
+.enter{
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 3;
+
+  /* background styles */
+
+padding: 15px 25px;
+background-color: green; /*for compatibility with older browsers*/
+background-image: linear-gradient(green,lightgreen);
+
+/* text styles */
+text-decoration: none;
+color: #fff;
+font-size: 3vw;
+font-family: sans-serif;
+font-weight: 100;
+border-radius: 3px;
+box-shadow: 0px 1px 4px -2px #333;
+text-shadow: 0px -1px #333;
+}
+.enter:after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.enter:hover{
+	background: linear-gradient(#073,#0fa);
+}
+.ctext2{
+  width: 70%;
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 2.7vw;
+  font-weight: 900;
+  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
+  font-family: sans-serif;
+  color: #d3e4ff;
+  z-index: 3;
 }
 .map{
   width:60%;
@@ -81,29 +170,29 @@ ul a:hover{
   padding: 0px;
 }
 .content{
-  font-size: 18px;
+  font-size: 23px;
   font-weight: normal;
   padding-left: 55px;
   padding-right: 55px;
   font-family: sans-serif;
 }
 .title{
-  font-size: 29px;
+  font-size: 34px;
   font-weight: bold;
   text-align: left;
   padding-top: 40px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   margin: 0px;
   padding-left: 10px;
   font-family: sans-serif;
   margin: 0px;
 }
 .top-title{
-  font-size: 29px;
+  font-size: 34px;
   font-weight: bold;
   text-align: left;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0px;
   padding-left: 10px;
   font-family: sans-serif;
