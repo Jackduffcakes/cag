@@ -116,7 +116,7 @@ ul a:hover{
   font-family: sans-serif;
   color: #d3e4ff;
 }
-.lib{
+.lib, .ed{
   width: 60%;
   position: absolute;
   top: 50%;
