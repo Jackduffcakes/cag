@@ -142,6 +142,10 @@ td {
   font-family: sans-serif;
   color: #d3e4ff;
 }
+.boat{
+  display: inline-block;
+  float: right;
+}
 .ctext1{
   width: 68%;
   position: absolute;
@@ -163,13 +167,11 @@ td {
 
   z-index: 3;
 
-  /* background styles */
 
 padding: 15px 25px;
 background-color: darkblue;
 background-image: linear-gradient(darkblue,blue);
 
-/* text styles */
 text-decoration: none;
 color: #fff;
 font-size: 4vw;
