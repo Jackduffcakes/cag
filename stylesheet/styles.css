@@ -103,6 +103,21 @@ ul a:hover{
   font-family: sans-serif;
   color: #d3e4ff;
 }
+table, th, td {
+    border: 2px solid black;
+    background-color: lightgray;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th {
+    text-align: center;
+    font-size: 2.1vw;
+}
+td {
+  font-size: 1.4vw;
+  background-color: white;
+  text-align: center;
+}
 .talent{
   width: 60%;
   position: absolute;
