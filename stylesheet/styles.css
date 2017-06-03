@@ -47,7 +47,6 @@ ul {
 }
 ul a{
   float: left;
-  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 15px 22px;
@@ -80,10 +79,10 @@ ul a:hover{
   font-weight: bold;
 }
 .underquote{
-  font-size: 1.7vw;
+  font-size: 1.6vw;
   padding-left: 55px;
   font-weight: 600;
-
+  font-family: sans-serif;
 }
 #uni{
   width: 100%;
