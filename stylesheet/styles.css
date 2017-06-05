@@ -48,14 +48,15 @@ h1{
     border-color: white;
     border-style: solid;
     border-width: thin;
+
 }
 .nav > ul a{
   color: #f2f2f2;
   text-decoration: none;
-  font-size: 1.4vw;
+  font-size: 1.5635vw;
   font-weight: bold;
   margin: 0px;
-  padding: .9vw 1.4vw;
+  padding: .9vw 1.5vw;
   display: inline-block;
 }
 .nav > ul > li:hover {
