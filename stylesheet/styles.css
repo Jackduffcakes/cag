@@ -163,6 +163,17 @@ td {
   display: inline-block;
   float: right;
 }
+.apple{
+  width: 93%;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.2vw;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: #d3e4ff;
+}
 .ctext1{
   width: 68%;
   position: absolute;
