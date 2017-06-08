@@ -33,6 +33,7 @@ h1{
   background-image: url("chalkboard.jpg");
   font-family: 'Fira Sans', sans-serif;
 }
+
 .nav > ul {
      font-size: 22px;
      margin: 0px;
@@ -58,6 +59,7 @@ h1{
   margin: 0px;
   padding: .9vw 1.5vw;
   display: inline-block;
+
 }
 .nav > ul > li:hover {
   background-color: #2424d8;
@@ -162,7 +164,7 @@ td {
 .chalk{
   width: 68%;
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
