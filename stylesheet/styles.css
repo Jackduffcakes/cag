@@ -291,6 +291,10 @@ text-shadow: 0px -1px #333;
   transform: translate(-50%, -50%);
   color: black;
 }
+.checkback{
+  float: right;
+  height: 30%;
+}
 .arrow{
   float: right;
 }
