@@ -106,6 +106,7 @@ ul.sub-nav li{
 #uni{
   width: 100%;
   height: auto;
+  filter: brightness(70%);
 }
 .container{
   position: relative;
@@ -118,7 +119,7 @@ ul.sub-nav li{
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
   font-weight: 900;
-  text-shadow: 0px 3px 3px #000, -2px -2px #000, 2px 2px #000;
+  text-shadow: 0px 4px 4px #000, -2px -2px #000, 3px 3px #000;
   font-family: sans-serif;
   color: #d3e4ff;
 }
@@ -150,15 +151,15 @@ td {
   color: #d3e4ff;
 }
 .lib{
-  width: 60%;
+  width: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
   font-weight: 900;
-  text-shadow: 0px 1px 1px white, -1px -1px white, 1px 1px white;
-  color: black;
+  text-shadow: 0px 4px 4px #000, -2px -2px #000, 2px 2px #000;
+  color: #d3e4ff;
 }
 .chalk{
   width: 68%;
