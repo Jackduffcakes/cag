@@ -238,6 +238,11 @@ text-shadow: 0px -1px #333;
   color: #d3e4ff;
   z-index: 3;
 }
+#me{
+  width: 15%;
+  display: inline-block;
+  float: right;
+}
 .map{
   width:100%;
   margin: 0px;
