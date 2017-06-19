@@ -4,19 +4,6 @@ body {
   padding: 0px 0px;
   background-image: url("school.png");
 }
-.webpage-title{
-  text-align: left;
-  font-size: 22px;
-  font-family: sans-serif;
-}
-h1{
-  margin: 0px;
-  padding: 15px;
-  background-color: #000a16;
-  color: white;
-  background-image: url("chalkboard.jpg");
-  font-family: 'Fira Sans', sans-serif;
-}
 ul.share-buttons{
   list-style: none;
   padding: 0;
