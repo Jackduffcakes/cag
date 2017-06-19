@@ -4,7 +4,6 @@ body {
   padding: 0px 0px;
   background-image: url("school.png");
 }
-
 #frontcontainer{
   position: relative;
 }
@@ -41,7 +40,6 @@ ul.share-buttons{
 
 ul.share-buttons li{
   display: inline;
-
 }
 
 ul.share-buttons .sr-only {
@@ -54,10 +52,8 @@ ul.share-buttons .sr-only {
   width: 1px;
   overflow: hidden;
 }
-
 ul.share-buttons img{
   width: 32px;
-
 }
 .nav > ul {
      font-size: 22px;
@@ -74,7 +70,6 @@ ul.share-buttons img{
     border-color: white;
     border-style: solid;
     border-width: thin;
-
 }
 .nav > ul a{
   color: #f2f2f2;
@@ -84,7 +79,6 @@ ul.share-buttons img{
   margin: 0px;
   padding: .9vw 1.5vw;
   display: inline-block;
-
 }
 .nav > ul > li:hover {
   background-color: #2424d8;
@@ -202,7 +196,6 @@ td {
   display: inline-block;
   float: right;
 }
-
 .ctext1{
   width: 68%;
   position: absolute;
@@ -221,17 +214,13 @@ td {
   top: 88%;
   left: 49%;
   transform: translate(-50%, -50%);
-
   z-index: 3;
-
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 100px 100px 0 100px;
   border-color: #1a34a5 transparent transparent transparent;
 }
-
-
 .enter:hover{
 	border-color: darkblue transparent transparent transparent;
 }
