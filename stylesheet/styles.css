@@ -109,7 +109,7 @@ ul.sub-nav li{
   font-weight: 900;
   text-shadow: 0px 4px 4px #000, -2px -2px #000, 3px 3px #000;
   font-family: sans-serif;
-  color: #d3e4ff;
+  color: white;
 }
 table, th, td {
     border: 2px solid black;
@@ -136,7 +136,7 @@ td {
   font-weight: 900;
   text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
   font-family: sans-serif;
-  color: #d3e4ff;
+  color: white;
 }
 .lib{
   width: 70%;
@@ -147,7 +147,7 @@ td {
   font-size: 3.61vw;
   font-weight: 900;
   text-shadow: 0px 4px 4px #000, -2px -2px #000, 2px 2px #000;
-  color: #d3e4ff;
+  color: white;
 }
 .chalk{
   width: 68%;
@@ -159,7 +159,7 @@ td {
   font-weight: 900;
   text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
   font-family: sans-serif;
-  color: #d3e4ff;
+  color: white;
 }
 .boat{
   display: inline-block;
@@ -191,7 +191,7 @@ td {
   font-size: 3.2vw;
   font-weight: 900;
   font-family: sans-serif;
-  color: #d3e4ff;
+  color: white;
 }
 .title{
   font-size: 34px;
