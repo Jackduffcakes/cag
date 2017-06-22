@@ -48,6 +48,7 @@ ul.share-buttons img{
   margin: 0px;
   padding: .9vw 1.5vw;
   display: inline-block;
+  transform: scaleY(1.25);
 }
 .nav > ul > li:hover {
   background-color: #2424d8;
