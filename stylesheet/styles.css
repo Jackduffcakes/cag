@@ -46,7 +46,7 @@ ul.share-buttons img{
   font-size: 1.5635vw;
   font-weight: bold;
   margin: 0px;
-  padding: .9vw 1.5vw;
+  padding: 1vw 1.5vw;
   display: inline-block;
   transform: scaleY(1.25);
 }
@@ -79,7 +79,7 @@ ul.sub-nav li{
   color: white;
 }
 .quote{
-  font-size: 2.2vw;
+  font-size: 2.3vw;
   color: darkblue;
   padding-left: 25px;
   font-style: italic;
