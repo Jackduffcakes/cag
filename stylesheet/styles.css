@@ -103,7 +103,7 @@ ul.sub-nav li{
 .centertext{
   width: 63%;
   position: absolute;
-  top: 20%;
+  top: 27%;
   left: 20%;
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
@@ -143,7 +143,7 @@ td {
 .lib{
   width: 70%;
   position: absolute;
-  top: 22%;
+  top: 30%;
   left: 17%;
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
