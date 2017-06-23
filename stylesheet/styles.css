@@ -101,10 +101,10 @@ ul.sub-nav li{
   position: relative;
 }
 .centertext{
-  width: 63%;
+  width: 85%;
   position: absolute;
-  top: 27%;
-  left: 20%;
+  top: 29%;
+  left: 10%;
   transform: translate(-50%, -50%);
   font-size: 3.61vw;
   font-weight: 900;
