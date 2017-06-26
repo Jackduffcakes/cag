@@ -250,6 +250,11 @@ td {
 .arrow{
   float: right;
 }
+#cflag{
+  float: left;
+  width: 300px;
+  margin-top: 5px;
+}
 .backarrow{
   float: left;
 }
