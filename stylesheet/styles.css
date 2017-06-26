@@ -6,7 +6,7 @@ body {
 }
 ul.share-buttons{
   list-style: none;
-  padding: 0;
+  padding: 0px;
 }
 ul.share-buttons li{
   display: inline;
@@ -15,26 +15,26 @@ ul.share-buttons .sr-only {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
+  padding: 0px;
   border: 0;
   height: 1px;
   width: 1px;
   overflow: hidden;
 }
 ul.share-buttons img{
-  width: 32px;
+  width: 70px;
+  padding: 0px 25px;
+  margin: 0px 15px;
 }
-
-
-
+ul.share-buttons img:hover{
+  opacity: 0.7;
+}
 #flag{
   width: 10vw;
 }
-
 #home{
   width: 2vw;
 }
-
 #tri {
 	width: 0;
 	height: 0;
@@ -43,7 +43,6 @@ ul.share-buttons img{
 	border-top: .8vw solid white;
   display: inline-flex;
   padding-bottom: .4vw;
-
 }
 ul.sub-nav{
   position: absolute;
@@ -101,7 +100,6 @@ ul.sub-nav li:hover{
 ul.sub-nav li{
   color: white;
 }
-
 #p{
   float: right;
   border-style: outset;
@@ -117,7 +115,6 @@ ul.sub-nav li{
 #p > a:hover{
   color: red;
 }
-
 #flag{
   position: absolute;
   left: 11vw;
@@ -127,7 +124,6 @@ ul.sub-nav li{
 .container{
   position: relative;
 }
-
 table, th, td {
     border: 2px solid black;
     background-color: #649ffc;
@@ -196,8 +192,7 @@ td {
 .content{
   font-size: 23px;
   font-weight: normal;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding: 0px 55px;
   font-family: sans-serif;
 }
 .apple{
@@ -227,8 +222,6 @@ td {
   font-size: 35px;
   font-weight: bold;
   text-align: left;
-  padding-top: 0px;
-  padding-bottom: 0px;
   margin: 0px;
   padding-left: 10px;
   font-family: sans-serif;
