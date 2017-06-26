@@ -13,103 +13,122 @@
 <script language = "javascript">
   window.onscroll = function() {myFunction()};
   function myFunction(){
-    document.getElementById("front").className = "inv";
-    setTimeout(function() {scroll(0,0)}, 200);
-    setTimeout(function() {scroll(0,0)}, 300);
-    setTimeout(function() {scroll(0,0)}, 400);
-    myFunction = new function(){};
-}
+    document.getElementById("t").id = "a";
+    document.getElementById("hook").id = "inv";
+    document.getElementById("header").id = "b";
+    myFunction = new function(){};}
   </script>
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<style type="text/css">
-body{
-  background-color: #eaeaea; margin: 0; padding: 0px 0px; background-image: url("school.png");
-}
-  #front{
-    position: relative;
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Slabo+27px" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+  <style type = "text/css">
+  #header{
+    background-image: url("chalkboard.jpg"); overflow: hidden; padding-bottom: 1.3vw;
   }
-  .flag{
-    width: 25%; position: absolute; z-index: 2;
+  #hook{
+    font-size: 2.8vw; font-weight: 900; text-shadow: 0px 3px 3px black, -1px -1px black, 3px 3px black; font-family: sans-serif;
+   color: white; transform: scaleY(1.5); text-align: center; padding-top: 1.1vw; margin-bottom: 4.7vw;
   }
-  .cov{
-    width: 100%; height: 100%; position: relative; z-index: 1;
+  #f{
+    left: 0;
+    position: absolute;
+    width: 14vw;
   }
-  .c1{
-    position: absolute; top: 21%; left: 6%; font-size: 2.7vw; font-weight: 900; text-shadow: 0px 3px 3px black, -1px -1px black, 3px 3px black; font-family: sans-serif;
-    color: white; z-index: 3; transform: scaleY(1.5);
-  }
-  .go{
-    position: absolute; top: 92%; left: 48.7%; transform: translate(-50%, -50%); z-index: 3; border-style: solid; border-width: 120px 120px 0 120px;
-    border-color: #1a34a5 transparent transparent transparent;
-  }
-  .go:hover{
-  	border-color: darkblue transparent transparent transparent;
-  }
-  .c2{
-    position: absolute; top: 32%; font-size: 4.42vw; font-weight: 900; font-family: sans-serif; text-shadow: 0px 3px 3px #000, -1px -1px #000, 3px 3px #000;
-    color: white; z-index: 3; transform: scaleY(1.78);
-
-  }
-  .c3{
-    width: 65%; position: absolute; top: 66%; left: 54%; transform: translate(-50%, -50%); font-size: 3.3vw; font-weight: 900; font-family: sans-serif; text-shadow: 0px 3px 3px black, -1px -1px black, 3px 3px black;
-    color: white; z-index: 3;
-  }
-  #b:hover, #I:hover, #S:hover{
-    color: #2567d1;
-  }
-  #b, #I, #S{
-    color: white;
-  }
-  .inv{
+  #inv{
     display: none; height: 0px; width: 0px;
   }
-  .header{
-    text-align: left; font-size: 22px; font-family: sans-serif;
+  #a{
+    background-image: url("chalkboard.jpg");
   }
-  h1{
-    margin: 0px; padding: 15px; background-color: #000a16; color: white; background-image: url("chalkboard.jpg");
+  #b{
+    margin-top: 3.9vw;
   }
-</style>
-<link rel="stylesheet" href="stylesheet\styles.css" media="none" onload="if(media!='all')media='all'">
-<noscript><link rel="stylesheet" href="stylesheet\styles.css"></noscript>
-<link href="https://fonts.googleapis.com/css?family=Courgette|Slabo+27px" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+  #h{
+    width: 2vw;
+  }
+  #t{
+    top: 7.1vw; background-image: transparent;
+  }
+  .nav > ul {
+       margin: 0px; padding: 0px; display: flex;
+  }
+  .nav > ul > li{
+      list-style-type: none; white-space: nowrap;
+  }
+  .nav{
+    position: fixed; width: 100%; z-index: 3; top: 0;
+  }
+  .nav > ul a{
+    color: white;text-decoration: none;font-size: 2.035vw;margin: 0px;padding: .8vw 1.8vw;display: inline-block;
+    transform: scaleY(1.15);font-family: sans-serif;font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;
+  }
+  .nav > ul > li:hover {
+    background-color: #2424d8;
+  }
+  ul.sub-nav{
+    position: absolute;background-image: url("chalkboard.jpg");list-style-type: none;display: none;text-align: center;padding: 5px 10px;
+  }
+  .nav li:hover .sub-nav{
+    display: block;
+  }
+  ul.sub-nav li:hover{
+    background-color: #2424d8;
+  }
+  #tr{
+  	width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;
+  }
+  #quote{
+    font-size: 2.95vw;
+    color: #2424d8;
+    font-style: italic;font-family: 'Slabo 27px', serif;font-weight: bold;margin-left: 53vw;margin-top: 1vw;margin-right: 3vw;position: absolute;z-index: 1;text-shadow: 0px 1px 1px black;
+  }
+  #q{
+    left: 0;border-style: outset;background-color: rgba(255, 255, 255, 0.7);position: absolute;margin-top: 3.9vw;
+    text-align: left;font-family: sans-serif;font-size: 1.4vw;transform: scaleY(1.5);font-weight: bold;z-index: 1;padding: 0vw .5vw;
+  }
+  #q > a:hover{
+    color: red;
+  }
+  #uni{
+    width: 100%;height: auto;position: relative;
+  }
+  #v{
+    font-size: 3.5vw;font-weight: bold;padding-top: 20px;padding-bottom: 10px;padding-left: 10px;font-family: sans-serif;color: darkblue;text-shadow: 0px 1px 1px black;
+  }
+  </style>
+<link rel="stylesheet" href="stylesheet/styles.css" media="none" onload="if(media!='all')media='all'">
+<noscript><link rel="stylesheet" href="stylesheet/styles.css"></noscript>
 </head>
 <body>
-  <div id = "front">
-    <img class="flag" src = "jackcollegepenant.png"></img>
-    <img class="cov" src = "johns.jpg"></img>
-    <div class="c1">Information On The Unclear Aspects Of College Admissions:</div>
-    <div class="c2">Intangibles That Differentiate Applicants</div>
-    <div class="c3">&emsp;&emsp;<a id = "S" href = "What%20Schools%20to%20Apply%20To/index.html">- application strategy - </a><br>&nbsp;<a id = "I" href = "Intangibles/index.html">- traits to show in application - </a><br><a id = "b" href = "Testing/Standardized%20Testing/index.html">- study book recommendations - </a><br>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;and more</div>
-  <a class="go" href = "#" onclick="javascript:myFunction()"></a>
-</div>
-  <div class = "header">
-    <h1><img src = "jackcollegepenant.png" height = 7%></img>  College Admission Guidance</h1>
-  </div>
-
-  <nav class = "nav">
+  <div id = "header">
+    <img id = "f" src = "jackcollegepenant.png"></img>
+    <div id = "hook">The Intangibles That Differentiate Applicants</div>
+  <nav id = "t" class = "nav">
       <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html"><img id = "h" src = "home.png"></img></a></li>
       <li><a href="Intangibles/index.html">Intangibles</a></li>
-      <li><a href="What%20Schools%20to%20Apply%20To/index.html">What Schools to Apply To</a></li>
-      <li><a href="Demonstrated%20Interest/index.html">Demonstrated Interest</a></li>
-      <li><a href= "Testing/Standardized%20Testing/index.html">Testing</a>
+      <li><a href="../What%20Schools%20to%20Apply%20To/index.html">Application Strategy <div id = "tr"></div></a>
+        <ul class = "sub-nav">
+          <li><a href = "What%20Schools%20to%20Apply%20To/index.html">What Schools To Apply To</a></li>
+          <li><a href="Demonstrated%20Interest/index.html">Demonstrated Interest</a></li>
+        </ul>
+      </li>
+      <li><a href= "Testing/Standardized%20Testing/index.html">Testing <div id = "tr"></div></a>
         <ul class = "sub-nav">
           <li><a href = "Testing/Standardized%20Testing/index.html">Standardized Testing</a></li>
           <li><a href = "Testing/Subject%20Tests/index.html">Subject Tests</a></li>
@@ -121,21 +140,24 @@ body{
       <li><a href="About%20Me/index.html">About Me</a></li>
     </ul>
   </nav>
-
-  <div class = "top-title">
-    <p>Why Is This Site Different?</p>
+</div>
+  <div id = "q">
+    <span style = "font-size: 2vw; color: #021d47">Links</span><br><a href = "Testing/Standardized%20Testing/index.html">Study Book <br>Recommendations</a><br><br><a href = "Testing/Standardized%20Testing/index.html#calculators">Calculator <br>Recommendations</a><br><br><a href = "#recentlyadded">Recently Added <br>Content</a>
   </div>
-    <div class = "quote">
-      <p> "the great majority of students who are admitted stand out from the rest because a lot of little things, when added up, tip the scale in their favor" <br>&emsp;<a href = "https://admissions.yale.edu/what-yale-looks-for" style = "font-family: serif; font-weight: normal; font-size: 1.8vw; font-style: normal;">-Yale Admission Website</a><p></div>
-      <div class = "underquote">
-             <p>This rhetoric is seen throughout top schools (less than 40% acceptance rates).
-             <br>These ‘little things’ are the focus of this site. <br>They differentiate students.</p>
-    </div>
+  <div id = "quote">
+     "the great majority of students who are admitted stand out from the rest because a lot of little things, when added up, tip the scale in their<br>favor"<br><a href = "https://admissions.yale.edu/what-yale-looks-for" style = "font-family: serif; font-weight: normal; font-size: 1.8vw; font-style: normal; text-shadow: none;">-Yale Admissions Website</a>
+  </div>
+    <img id = "uni" src = "johns.jpg"></img>
+  <div id = "v">
+    Why Is This Site Different?
+  </div>
     <div class = "content">
-      <p><br>In 2017 80+% of students who apply to top schools are academically qualified. Colleges choose between students with similar GPA’s, scores, and often times extracurriculars. How do they choose?</p>
+      <p>In 2017 80+% of students who apply to top schools are academically qualified. Colleges choose between students with similar GPA’s, scores, and often times extracurriculars. How do they choose?</p>
 	<p>Beyond grades and scores lie the intangibles that admissions officers look for. Traits like intellectual curiosity and kindness are often the differentiating factors between the student with a 4.0 and 1480 SAT getting accepted over another with a 4.0 and 1480.</p>
-  <p>This website shows you how to showcase and leverage the traits that you possess that are the most desirable to admissions officers. </p></div>
-  <div class = "container"><img id = "uni" src = "mit.jpg"></img><div class = "centertext">This site, unlike most college admissions sites, explores the non-obvious. It focuses on the factors beyond grades, scores, and extra-curriculars that translate to acceptances and bigger merit aid packages.</div></div>
+  <p>This website shows you how to showcase and leverage the traits that you possess that are the most desirable to admissions officers. </p>
+<span style = "font-weight: bold; color: darkblue">This site, unlike most college admissions sites, focuses on the factors beyond grades, scores, and extra-curriculars that translate to acceptances and bigger merit aid packages.</span>
+</div>
+</div>
   <div class = "content">
   <p>I got into an Ivy League School, Dartmouth College, from that 80% of academically qualified. Nothing I did was extraordinary and I am neither a recruited athlete nor ‘hooked’ applicant (with a compelling major factor in admission ie: minority, first generation, legacy, low income, etc) nor was I even in the top 1% of my public high school.</p>
   <p>Dartmouth accepts 10% of applicants. They differentiate through these intangibles.</p>
@@ -144,6 +166,7 @@ body{
     </div>
     <div class = "title">
       <p>What Can You Even Offer?</p>
+    </div>
       <div class = "content">
         <p>I think strategically. As I went through the college application process in 2016 I became obsessed with learning the nuances of the process. I wanted to know how admissions officers at top schools choose between applicants whose grades and scores are all stellar. Some  of these intangibles I was aware of throughout the process but some I began to understand more thoroughly in hind-sight. </p>
         <p> Analyzing the admission results of those around me, it saddened me when I saw friends and peers just as academically competent as me or others accepted to top schools fail to get in because they didn't understand all these nuances and hidden factors. </p>
@@ -152,11 +175,12 @@ body{
     </div>
     <div class = "title">
       <p>Site Structure</p>
+    </div>
       <div class = "content">
         <p>New content will constantly be added as I continue to research the process so that students going through the process don't have to.</p>
         <p> Here is the current layout, suggested order, and content summary as well as upcoming content. Feel free to let me know if you are interested in the upcoming content or if you want me to address something else.</p>
 <img class = "map" src = "mapfirstfour.jpg"></img><img class = "map" src = "mapsecondfour.jpg"></img>
-<p> <span style = "font-size: 18px">If you are a Freshman or Sophomore, the most immediately helpful section is <a href = "Testing/AP/index.html">AP Tests and Courses</a> as it helps you succeed in your current AP courses.</span></p>
+<p> <span style = "font-size: 18px">If you are a Freshman or Sophomore, the most immediately helpful section is <a href = "../Testing/AP/index.html">AP Tests and Courses</a> as it helps you succeed in your current AP courses.</span></p>
 <br><a id = "recentlyadded">
 <p><span style = "font-weight: bold; font-size: 2.2vw">Recently Added Content:</span></p>
 </a>
@@ -195,13 +219,13 @@ body{
 </tr>
 </table>
 <br>
-<p>Upcoming Section: <span style = "font-weight: bold">College Essay</span> - what makes a good essay, what the essay is for, etc</p>
-<p>Upcoming Section: <span style = "font-weight: bold">Senior Year</span> - course selection for senior year, some tips, and some neglected things that should be done senior year</p>
-<p>Upcoming Section: <span style = "font-weight: bold">Merit Scholarships</span> - information on getting scholarships and merit aid</p>
+<p>Upcoming Section: <span style = "font-weight: bold; color: darkblue">College Essay</span> - what makes a good essay, what the essay is for, etc</p>
+<p>Upcoming Section: <span style = "font-weight: bold; color: darkblue">Senior Year</span> - course selection for senior year, some tips, and some neglected things that should be done senior year</p>
+<p>Upcoming Section: <span style = "font-weight: bold; color: darkblue">FAQ</span> - answering frequently asked questions as well as going over some of the more straightforward parts of the process</p>
 </div></div></div>
   <div class = "contactinfo">
-    <p>&emsp;Contact me through the google form in 'Personal Guidance.'</p>
-    <p>&emsp;Contributions can be made in 'About Me.'</p></div>
+    <p>&emsp;<a href="Personal%20Guidance/index.html">Contact me through the google form in 'Personal Guidance.'</a></p>
+    <p>&emsp;<a href = "About%20Me/index.html#donation">Contributions can be made in 'About Me.'</a></p></div>
 <a href = "Intangibles/index.html"><img class = "arrow" src = "arrowhome.png"></img></a>
 <div class = "citations-and-disclaimers-title">
   <br><br><br><div class = "container"><a href = "#top"><img class = "toparrow" src = "backtop.jpg"></img></a></div>
@@ -215,7 +239,6 @@ body{
   <p><br>Citations and Disclaimers</p>
 </div>
 <div class = "citations-and-disclaimers">
-  <p>Massachusetts Institute of Technology (MIT). Cedric Weber / Shutterstock.com</p>
   <p>This is my view of the college application process. I do not know everything nor do I claim to be right 100% of the time. I simply wish to help people by supplying my analysis of the process but it should be taken in conjunction with people in your life like guidance counselors, teachers, etc. I assume no responsibility for getting you into any particular school.</p>
   <p>We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites.</p>
 </div>

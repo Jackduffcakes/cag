@@ -24,34 +24,26 @@ ul.share-buttons .sr-only {
 ul.share-buttons img{
   width: 32px;
 }
-.nav > ul {
-     font-size: 22px;
-     margin: 0px;
-     background-image: url("chalkboard.jpg");
-     padding: 0px;
-     display: flex;
+
+
+
+#flag{
+  width: 10vw;
 }
-.nav > ul > li{
-   margin: 0px;
-    display: inline-block;
-    list-style-type: none;
-    font-weight: bold;
-    border-color: white;
-    border-style: solid;
-    border-width: thin;
+
+#home{
+  width: 2vw;
 }
-.nav > ul a{
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 1.5635vw;
-  font-weight: bold;
-  margin: 0px;
-  padding: 1vw 1.5vw;
-  display: inline-block;
-  transform: scaleY(1.25);
-}
-.nav > ul > li:hover {
-  background-color: #2424d8;
+
+#tri {
+	width: 0;
+	height: 0;
+	border-left: .5vw solid transparent;
+	border-right: .5vw solid transparent;
+	border-top: .8vw solid white;
+  display: inline-flex;
+  padding-bottom: .4vw;
+
 }
 ul.sub-nav{
   position: absolute;
@@ -61,10 +53,44 @@ ul.sub-nav{
   text-align: center;
   padding: 5px 10px;
 }
-.nav li:hover .sub-nav{
+.nav1 li:hover .sub-nav{
   display: block;
 }
 ul.sub-nav li:hover{
+  background-color: #2424d8;
+}
+.nav1 > ul {
+     margin: 0px;
+     padding: 0px;
+     display: flex;
+}
+.nav1 > ul > li{
+    list-style-type: none;
+    white-space: nowrap;
+}
+.nav1{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-image: url("chalkboard.jpg");
+}
+.nav1 > ul a{
+  color: white;
+  text-decoration: none;
+  font-size: 2.035vw;
+  margin: 0px;
+  padding: .8vw 1.8vw;
+  display: inline-block;
+  transform: scaleY(1.15);
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;
+}
+.nav1 > ul > li:hover {
+  background-color: #2424d8;
+}
+.nav1 > ul > li:hover {
   background-color: #2424d8;
 }
 .dropdown{
@@ -73,49 +99,38 @@ ul.sub-nav li:hover{
   margin-left: -1.4vw;
 }
 ul.sub-nav li{
-  border-color: white;
-  border-style: solid;
-  border-width: thin;
   color: white;
 }
-.quote{
-  font-size: 2.3vw;
-  color: darkblue;
-  padding-left: 25px;
-  font-style: italic;
-  font-family: 'Slabo 27px', serif;
+
+#p{
+  float: right;
+  border-style: outset;
+  border-radius: 1vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.4vw;
+  transform: scaleY(1.95);
   font-weight: bold;
 }
-.underquote{
-  font-size: 1.6vw;
-  padding-left: 55px;
-  font-weight: 600;
-  font-family: sans-serif;
+#p > a:hover{
+  color: red;
 }
-#uni{
-  width: 100%;
-  height: auto;
-  filter: brightness(70%);
+
+#flag{
+  position: absolute;
+  left: 11vw;
+  width: 20%;
+  padding-top: 3vw;
 }
 .container{
   position: relative;
 }
-.centertext{
-  width: 85%;
-  position: absolute;
-  top: 29%;
-  left: 10%;
-  transform: translate(-50%, -50%);
-  font-size: 3.61vw;
-  font-weight: 900;
-  text-shadow: 0px 4px 4px #000, -2px -2px #000, 3px 3px #000;
-  font-family: sans-serif;
-  color: white;
-  transform: scaleY(1.2);
-}
+
 table, th, td {
     border: 2px solid black;
-    background-color: lightgray;
+    background-color: #649ffc;
     border-collapse: collapse;
     border-spacing: 0;
 }
@@ -197,7 +212,7 @@ td {
   color: white;
 }
 .title{
-  font-size: 34px;
+  font-size: 35px;
   font-weight: bold;
   text-align: left;
   padding-top: 40px;
@@ -206,9 +221,10 @@ td {
   padding-left: 10px;
   font-family: sans-serif;
   margin: 0px;
+  color: darkblue;text-shadow: 0px 1px 1px black;
 }
 .top-title{
-  font-size: 34px;
+  font-size: 35px;
   font-weight: bold;
   text-align: left;
   padding-top: 0px;
@@ -216,7 +232,8 @@ td {
   margin: 0px;
   padding-left: 10px;
   font-family: sans-serif;
-  margin: 0px;
+  margin-top: 5vw;
+  color: darkblue;text-shadow: 0px 1px 1px black;
 }
 .toparrow{
   width: 3%;
@@ -261,6 +278,12 @@ td {
   display: inline-block;
   margin-left: 40px;
 }
+.book > a:hover{
+  opacity: 0.5;
+}
 .link{
   padding-left: 20px;
+}
+.link > a:hover{
+  color: red;
 }
