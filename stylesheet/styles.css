@@ -247,8 +247,14 @@ td {
   float: right;
   height: 170px;
 }
+.checkback:hover{
+  opacity: 0.7;
+}
 .arrow{
   float: right;
+}
+.arrow:hover{
+  opacity: 0.7;
 }
 #cflag{
   float: left;
@@ -257,6 +263,9 @@ td {
 }
 .backarrow{
   float: left;
+}
+.backarrow:hover{
+  opacity: 0.7;
 }
 .donationexplanation{
   font-size: 18px;
