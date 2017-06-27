@@ -1,12 +1,10 @@
 body {
   background-color: #eaeaea;
-  margin: 0;
-  padding: 0px 0px;
+  margin: 0;padding: 0px 0px;
   background-image: url("school.png");
 }
 ul.share-buttons{
-  list-style: none;
-  padding: 0px;
+  list-style: none;padding: 0px;
 }
 ul.share-buttons li{
   display: inline;
@@ -17,8 +15,7 @@ ul.share-buttons .sr-only {
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0px;
   border: 0;
-  height: 1px;
-  width: 1px;
+  height: 1px;width: 1px;
   overflow: hidden;
 }
 ul.share-buttons img{
@@ -36,8 +33,7 @@ ul.share-buttons img:hover{
   width: 2vw;
 }
 #tri {
-	width: 0;
-	height: 0;
+	width: 0;height: 0;
 	border-left: .5vw solid transparent;
 	border-right: .5vw solid transparent;
 	border-top: .8vw solid white;
@@ -59,8 +55,7 @@ ul.sub-nav li:hover{
   background-color: #2424d8;
 }
 .nav1 > ul {
-     margin: 0px;
-     padding: 0px;
+     margin: 0px;padding: 0px;
      display: flex;
 }
 .nav1 > ul > li{
@@ -112,7 +107,7 @@ ul.sub-nav li{
   transform: scaleY(1.95);
   font-weight: bold;
 }
-#p > a:hover{
+#p > a:hover, .link > a:hover{
   color: red;
 }
 #flag{
@@ -179,15 +174,8 @@ td {
   display: inline-block;
   float: right;
 }
-#me{
-  width: 15%;
-  display: inline-block;
-  float: right;
-}
 .map{
-  width:100%;
-  margin: 0px;
-  padding: 0px;
+  width:100%;margin: 0px;padding: 0px;
 }
 .content{
   font-size: 23px;
@@ -215,7 +203,6 @@ td {
   margin: 0px;
   padding-left: 10px;
   font-family: sans-serif;
-  margin: 0px;
   color: darkblue;text-shadow: 0px 1px 1px black;
 }
 .top-title{
@@ -236,17 +223,10 @@ td {
   transform: translate(-50%, -50%);
   color: black;
 }
-.checkback{
-  float: right;
-  height: 170px;
-}
-.checkback:hover{
-  opacity: 0.7;
-}
 .arrow{
   float: right;
 }
-.arrow:hover{
+.arrow:hover, .backarrow:hover, .checkback:hover{
   opacity: 0.7;
 }
 #cflag{
@@ -256,9 +236,6 @@ td {
 }
 .backarrow{
   float: left;
-}
-.backarrow:hover{
-  opacity: 0.7;
 }
 .donationexplanation{
   font-size: 18px;
@@ -290,7 +267,4 @@ td {
 }
 .link{
   padding-left: 20px;
-}
-.link > a:hover{
-  color: red;
 }
