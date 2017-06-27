@@ -41,36 +41,19 @@
     background-image: url("chalkboard.jpg"); overflow: hidden; padding-bottom: 1.3vw;min-height: 70px;
   }
   #hook{
-    font-size: 2.8vw; font-weight: 900; text-shadow: 0px 3px 3px black, -1px -1px black, 3px 3px black; font-family: sans-serif;
+    font-size: 2.8vw; font-weight: 900; text-shadow: 0px 3px 3px black, -1px -1px black, 3px 3px black;
    color: white; transform: scaleY(1.5); text-align: center; padding-top: 1.1vw; margin-bottom: 4.7vw;
   }
-  #f{
-    left: 0;position: absolute;width: 14vw;
-  }
-  #inv{
-    display: none; height: 0px; width: 0px;
-  }
-  #a{
-    background-image: url("chalkboard.jpg");
-  }
-  #b{
-    margin-top: 3.9vw;
-  }
-  #t{
-    top: 7.1vw; background-image: transparent;
-  }
-  .nav > ul {
-       margin: 0px;padding: 0px;display: flex;
-  }
-  .nav > ul > li{
-      list-style-type: none; white-space: nowrap;
-  }
-  .nav{
-    position: fixed; width: 100%; z-index: 3; top: 0;
-  }
+  #inv{display: none; height: 0px; width: 0px;}
+  #a{background-image: url("chalkboard.jpg");}
+  #b{margin-top: 3.9vw;}
+  #t{top: 7.1vw; background-image: transparent;}
+  .nav > ul {margin: 0px;padding: 0px;display: flex;}
+  .nav > ul > li{list-style-type: none; white-space: nowrap;}
+  .nav{position: fixed; width: 100%; z-index: 3; top: 0;}
   .nav > ul a{
     color: white;text-decoration: none;font-size: 2.035vw;margin: 0px;padding: .8vw 1.8vw;display: inline-block;
-    transform: scaleY(1.15);font-family: sans-serif;font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;
+    transform: scaleY(1.15);font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;
   }
   .nav > ul > li:hover,  ul.sub-nav li:hover{
     background-color: #2424d8;
@@ -78,28 +61,23 @@
   ul.sub-nav{
     position: absolute;background-image: url("chalkboard.jpg");list-style-type: none;display: none;text-align: center;padding: 5px 10px;
   }
-  .nav li:hover .sub-nav{
-    display: block;
-  }
+  .nav li:hover .sub-nav{display: block;}
   #tr{
   	width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;
   }
   #quote{
-    font-size: 2.95vw;color: #2424d8;font-style: italic;font-family: 'Slabo 27px', serif;font-weight: bold;margin-left: 53vw;margin-top: 1vw;margin-right: 3vw;
-    position: absolute;z-index: 1;text-shadow: 0px 1px 1px black;
+    font-size: 2.95vw;color: #2424d8;font-style: italic;font-family: 'Slabo 27px', serif;font-weight: bold; margin: 1vw 3vw 0 53vw;position: absolute;z-index: 1;text-shadow: 0px 1px 1px black;
   }
   #q{
     left: 0;border-style: outset;background-color: rgba(255, 255, 255, 0.7);position: absolute;margin-top: 3.9vw;
-    text-align: left;font-family: sans-serif;font-size: 1.4vw;transform: scaleY(1.5);font-weight: bold;z-index: 1;padding: 0vw .5vw;
+    text-align: left;font-size: 1.4vw;transform: scaleY(1.5);font-weight: bold;z-index: 1;padding: 0vw .5vw;
   }
-  #q > a:hover{
-    color: red;
-  }
-  #uni{
-    width: 100%;height: auto;position: relative;
-  }
+  #q > a:hover{color: red;}
   #v{
-    font-size: 3.5vw;font-weight: bold;padding-top: 20px;padding-bottom: 10px;padding-left: 10px;font-family: sans-serif;color: darkblue;text-shadow: 0px 1px 1px black;
+    font-size: 3.5vw;font-weight: bold;padding: 20px 0px 10px 10px;color: darkblue;text-shadow: 0px 1px 1px black;
+  }
+  body {
+    background-color: #eaeaea;margin: 0;padding: 0px 0px;background-image: url("school.png"); font-family: sans-serif;
   }
   </style>
 <link rel="stylesheet" href="stylesheet/styles.css" media="none" onload="if(media!='all')media='all'">
@@ -107,7 +85,7 @@
 </head>
 <body>
   <div id = "header">
-    <img id = "f" src = "jackcollegepenant.png"></img>
+    <img style = "left: 0;position: absolute;width: 14vw" src = "jackcollegepenant.png"></img>
     <div id = "hook">The Intangibles That Differentiate Applicants</div>
   <nav id = "t" class = "nav">
       <ul>
@@ -138,7 +116,7 @@
   <div id = "quote">
      "the great majority of students who are admitted stand out from the rest because a lot of little things, when <span style = "margin-right: 3.5vw">added up, tip the scale in their</span><br>favor"<br><a href = "https://admissions.yale.edu/what-yale-looks-for" style = "font-family: serif; font-weight: normal; font-size: 1.8vw; font-style: normal; text-shadow: none;">-Yale Admissions Website</a>
   </div>
-    <img id = "uni" src = "johns.jpg"></img>
+    <img style = "width: 100%;height: auto;position: relative;" src = "johns.jpg"></img>
   <div id = "v">
     Why Is This Site Different?
   </div>
@@ -170,7 +148,7 @@
       <div class = "content">
         <p>New content will constantly be added as I continue to research the process so that students going through the process don't have to.</p>
         <p> Here is the current layout, suggested order, and content summary as well as upcoming content. Feel free to let me know if you are interested in the upcoming content or if you want me to address something else.</p>
-<img class = "map" src = "mapfirstfour.jpg"></img><img class = "map" src = "mapsecondfour.jpg"></img>
+<img style = "width:100%" src = "mapfirstfour.jpg"></img><img style = "width:100%" src = "mapsecondfour.jpg"></img>
 <p> <span style = "font-size: 18px">If you are a Freshman or Sophomore, the most immediately helpful section is <a href = "../Testing/AP/index.html">AP Tests and Courses</a> as it helps you succeed in your current AP courses.</span></p>
 <br><a id = "recentlyadded">
 <p><span style = "font-weight: bold; font-size: 2.2vw">Recently Added Content:</span></p>
@@ -214,15 +192,13 @@
 <p>Upcoming Section: <span style = "font-weight: bold; color: darkblue">Senior Year</span> - course selection for senior year, some tips, and some neglected things that should be done senior year</p>
 <p>Upcoming Section: <span style = "font-weight: bold; color: darkblue">FAQ</span> - answering frequently asked questions as well as going over some of the more straightforward parts of the process</p>
 </div></div></div>
-  <div class = "contactinfo">
-    <p>&emsp;<a href="Personal%20Guidance/index.html">Contact me through the google form in 'Personal Guidance.'</a></p>
-    <p>&emsp;<a href = "About%20Me/index.html#donation">Contributions can be made in 'About Me.'</a></p></div>
-<img id = "cflag" src = "jackcollegepenant.png"></img>
+    &emsp;<div class = "link" style = "font-size: 20px"><a href="Personal%20Guidance/index.html">Contact me through the google form in 'Personal Guidance.'</a></div>
+    &emsp;<div class = "link" style = "font-size: 20px"><a href = "About%20Me/index.html#donation">Contributions can be made in 'About Me.'</a></div></div><br><br><br>
+<img style = "float: left;width: 300px;margin-top: 5px" src = "jackcollegepenant.png"></img>
 <a href = "Intangibles/index.html"><img class = "arrow" src = "r.png"></img></a>
 <div class = "citations-and-disclaimers-title">
   <br><br><br><div class = "container"><a href = "#top"><img class = "toparrow" src = "backtop.jpg"></img></a></div>
-  <div class = "contactinfo">
-  <p><span style = "color: black; font-family: sans-serif; font-size: 30px">Share this website:</span></p></div>
+  <p><span style = "color: black; font-family: sans-serif; font-size: 30px">Share this website:</span></p>
   <ul class="share-buttons">
     <li><a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="Facebook.svg"></a></li>
     <li><a href="https://twitter.com/intent/tweet?source=&text=collegeadmissionguidance.com" target="_blank" title="Tweet"><img alt="Tweet" src="Twitter.svg"></a></li>

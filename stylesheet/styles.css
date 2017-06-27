@@ -1,7 +1,7 @@
 body {
   background-color: #eaeaea;
   margin: 0;padding: 0px 0px;
-  background-image: url("school.png");
+  background-image: url("school.png"); font-family: sans-serif;
 }
 ul.share-buttons{
   list-style: none;padding: 0px;
@@ -22,12 +22,6 @@ ul.share-buttons img{
   width: 70px;
   padding: 0px 25px;
   margin: 0px 15px;
-}
-ul.share-buttons img:hover{
-  opacity: 0.7;
-}
-#flag{
-  width: 10vw;
 }
 #home{
   width: 2vw;
@@ -77,7 +71,6 @@ ul.sub-nav li:hover{
   padding: .8vw 1.8vw;
   display: inline-block;
   transform: scaleY(1.15);
-  font-family: sans-serif;
   font-weight: lighter;
   text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;
 }
@@ -102,19 +95,12 @@ ul.sub-nav li{
   background-color: rgba(255, 255, 255, 0.5);
   position: relative;
   text-align: center;
-  font-family: sans-serif;
   font-size: 1.4vw;
   transform: scaleY(1.95);
   font-weight: bold;
 }
-#p > a:hover, .link > a:hover{
+#p > a:hover, .link > a:hover, td > a:hover{
   color: red;
-}
-#flag{
-  position: absolute;
-  left: 11vw;
-  width: 20%;
-  padding-top: 3vw;
 }
 .container{
   position: relative;
@@ -143,7 +129,6 @@ td {
   font-size: 3.61vw;
   font-weight: 900;
   text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
-  font-family: sans-serif;
   color: white;
 }
 .lib{
@@ -167,21 +152,7 @@ td {
   font-size: 3.61vw;
   font-weight: 900;
   text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
-  font-family: sans-serif;
   color: white;
-}
-.boat{
-  display: inline-block;
-  float: right;
-}
-.map{
-  width:100%;margin: 0px;padding: 0px;
-}
-.content{
-  font-size: 23px;
-  font-weight: normal;
-  padding: 0px 55px;
-  font-family: sans-serif;
 }
 .apple{
   width: 93%;
@@ -191,27 +162,33 @@ td {
   transform: translate(-50%, -50%);
   font-size: 3.2vw;
   font-weight: 900;
-  font-family: sans-serif;
   color: white;
+}
+.boat{
+  display: inline-block;
+  float: right;
+}
+.arrow{
+  float: right;
+}
+.content{
+  font-size: 23px;
+  font-weight: normal;
+  padding: 0px 55px;
 }
 .title{
   font-size: 35px;
   font-weight: bold;
   text-align: left;
-  padding-top: 40px;
-  padding-bottom: 10px;
-  margin: 0px;
-  padding-left: 10px;
-  font-family: sans-serif;
-  color: darkblue;text-shadow: 0px 1px 1px black;
+  padding: 40px 0 10px 10px;
+  color: darkblue;
+  text-shadow: 0px 1px 1px black;
 }
 .top-title{
   font-size: 35px;
   font-weight: bold;
   text-align: left;
-  margin: 0px;
   padding-left: 10px;
-  font-family: sans-serif;
   margin-top: 5vw;
   color: darkblue;text-shadow: 0px 1px 1px black;
 }
@@ -223,47 +200,21 @@ td {
   transform: translate(-50%, -50%);
   color: black;
 }
-.arrow{
-  float: right;
-}
-.arrow:hover, .backarrow:hover, .checkback:hover{
+.arrow:hover, .backarrow:hover, .checkback:hover, .book > a:hover, ul.share-buttons img:hover{
   opacity: 0.7;
-}
-#cflag{
-  float: left;
-  width: 300px;
-  margin-top: 5px;
 }
 .backarrow{
   float: left;
 }
-.donationexplanation{
-  font-size: 18px;
-  padding-top: 80px;
-  padding-left: 10px;
-}
-.contactinfo{
-  font-size: 18px;
-  padding-top: 40px;
-}
 .citations-and-disclaimers-title{
-  padding-top: 100px;
-  font-size: 22px;
-  font-weight: bold;
-  padding-left: 10px;
-  color: gray;
+  padding: 100px 0 0 10px;font-size: 22px;font-weight: bold;color: gray;font-family: serif;
 }
 .citations-and-disclaimers{
-  font-size: 13px;
-  padding-left: 10px;
-  color: gray;
+  font-size: 13px;padding-left: 10px;color: gray;font-family: serif;
 }
 .book{
   display: inline-block;
   margin-left: 40px;
-}
-.book > a:hover{
-  opacity: 0.5;
 }
 .link{
   padding-left: 20px;
