@@ -77,9 +77,6 @@ ul.sub-nav li:hover{
 .nav1 > ul > li:hover {
   background-color: #2424d8;
 }
-.nav1 > ul > li:hover {
-  background-color: #2424d8;
-}
 .dropdown{
   color: white;
   display: inline-flex;
@@ -120,30 +117,7 @@ td {
   background-color: white;
   text-align: center;
 }
-.talent{
-  width: 60%;
-  position: absolute;
-  top: 26%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  font-size: 3.61vw;
-  font-weight: 900;
-  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
-  color: white;
-}
-.lib{
-  width: 70%;
-  position: absolute;
-  top: 30%;
-  left: 17%;
-  transform: translate(-50%, -50%);
-  font-size: 3.61vw;
-  font-weight: 900;
-  text-shadow: 0px 4px 4px #000, -2px -2px #000, 2px 2px #000;
-  color: white;
-  transform: scaleY(1.25);
-}
-.chalk{
+.wot{
   width: 68%;
   position: absolute;
   top: 50%;
@@ -154,62 +128,48 @@ td {
   text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
   color: white;
 }
-.apple{
-  width: 93%;
-  position: absolute;
-  top: 24%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3.2vw;
-  font-weight: 900;
-  color: white;
-}
-.boat{
+.fri{
   display: inline-block;
   float: right;
 }
-.arrow{
+.fr{
   float: right;
 }
 .content{
   font-size: 23px;
-  font-weight: normal;
   padding: 0px 55px;
 }
 .title{
   font-size: 35px;
   font-weight: bold;
-  text-align: left;
   padding: 40px 0 10px 10px;
   color: darkblue;
   text-shadow: 0px 1px 1px black;
 }
-.top-title{
+.top-t{
   font-size: 35px;
   font-weight: bold;
-  text-align: left;
   padding-left: 10px;
   margin-top: 5vw;
   color: darkblue;text-shadow: 0px 1px 1px black;
 }
-.toparrow{
+.ta{
   width: 3%;
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
 }
-.arrow:hover, .backarrow:hover, .checkback:hover, .book > a:hover, ul.share-buttons img:hover{
+.fr:hover, .fl:hover, .book > a:hover, ul.share-buttons img:hover, .ta:hover{
   opacity: 0.7;
 }
-.backarrow{
+.fl{
   float: left;
 }
-.citations-and-disclaimers-title{
+.cdt{
   padding: 100px 0 0 10px;font-size: 22px;font-weight: bold;color: gray;font-family: serif;
 }
-.citations-and-disclaimers{
+.cd{
   font-size: 13px;padding-left: 10px;color: gray;font-family: serif;
 }
 .book{
