@@ -1,6 +1,5 @@
 body {
-  background-color: #eaeaea;
-  margin: 0;padding: 0px 0px;
+  background-color: #eaeaea;margin: 0;padding: 0px 0px;
   background-image: url("school.png"); font-family: sans-serif;
 }
 ul.share-buttons{
@@ -10,29 +9,18 @@ ul.share-buttons li{
   display: inline;
 }
 ul.share-buttons .sr-only {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0px;
-  border: 0;
-  height: 1px;width: 1px;
-  overflow: hidden;
+  position: absolute;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);
+  padding: 0px;border: 0;height: 1px;width: 1px;overflow: hidden;
 }
 ul.share-buttons img{
-  width: 70px;
-  padding: 0px 25px;
-  margin: 0px 15px;
+  width: 70px;padding: 0px 25px;margin: 0px 15px;
 }
 #home{
   width: 2vw;
 }
 #tri {
-	width: 0;height: 0;
-	border-left: .5vw solid transparent;
-	border-right: .5vw solid transparent;
-	border-top: .8vw solid white;
-  display: inline-flex;
-  padding-bottom: .4vw;
+	width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;
+	border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;
 }
 ul.sub-nav{
   position: absolute;
@@ -53,8 +41,7 @@ ul.sub-nav li:hover{
      display: flex;
 }
 .nav1 > ul > li{
-    list-style-type: none;
-    white-space: nowrap;
+    list-style-type: none;white-space: nowrap;
 }
 .nav1{
   position: fixed;
@@ -86,15 +73,8 @@ ul.sub-nav li{
   color: white;
 }
 #p{
-  float: right;
-  border-style: outset;
-  border-radius: 1vw;
-  background-color: rgba(255, 255, 255, 0.5);
-  position: relative;
-  text-align: center;
-  font-size: 1.4vw;
-  transform: scaleY(1.95);
-  font-weight: bold;
+  float: right;border-style: outset;border-radius: 1vw;background-color: rgba(255, 255, 255, 0.5);
+  position: relative;text-align: center;font-size: 1.4vw;transform: scaleY(1.95);font-weight: bold;
 }
 #p > a:hover, .link > a:hover, td > a:hover{
   color: red;
@@ -118,26 +98,17 @@ td {
   text-align: center;
 }
 .wot{
-  width: 68%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3.61vw;
-  font-weight: 900;
-  text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;
-  color: white;
+  width: 68%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 3.61vw;
+  font-weight: 900;text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;color: white;
 }
 .fri{
-  display: inline-block;
-  float: right;
+  display: inline-block;float: right;
 }
 .fr{
   float: right;
 }
 .content{
-  font-size: 23px;
-  padding: 0px 55px;
+  font-size: 23px;padding: 0px 55px;
 }
 .title{
   font-size: 35px;
@@ -154,11 +125,7 @@ td {
   color: darkblue;text-shadow: 0px 1px 1px black;
 }
 .ta{
-  width: 3%;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 3%;position: absolute;top: 80%;left: 50%;transform: translate(-50%, -50%);
 }
 .fr:hover, .fl:hover, .book > a:hover, ul.share-buttons img:hover, .ta:hover{
   opacity: 0.7;
@@ -173,8 +140,7 @@ td {
   font-size: 13px;padding-left: 10px;color: gray;font-family: serif;
 }
 .book{
-  display: inline-block;
-  margin-left: 40px;
+  display: inline-block;margin-left: 40px;
 }
 .link{
   padding-left: 20px;
