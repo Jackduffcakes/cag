@@ -113,7 +113,7 @@ td {
 .title{
   font-size: 35px;
   font-weight: bold;
-  padding: 40px 0 10px 10px;
+  padding: 100px 0 30px 10px;
   color: darkblue;
   text-shadow: 0px 1px 1px black;
 }
@@ -122,6 +122,7 @@ td {
   font-weight: bold;
   padding-left: 10px;
   margin-top: 5vw;
+  padding-bottom: 20px;
   color: darkblue;text-shadow: 0px 1px 1px black;
 }
 .ta{
