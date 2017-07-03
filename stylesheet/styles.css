@@ -48,7 +48,7 @@ ul.sub-nav li:hover{
   width: 100%;
   z-index: 1;
   top: 0;
-  background-image: url("chalkboard.jpg");
+  background-image: url("chalkboard.jpg"); /*background pattern from Subtle Patterns*/
 }
 .nav1 > ul a{
   color: white;
@@ -59,7 +59,7 @@ ul.sub-nav li:hover{
   display: inline-block;
   transform: scaleY(1.15);
   font-weight: lighter;
-  text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;
+  text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;font-family: 'Roboto', sans-serif;
 }
 .nav1 > ul > li:hover {
   background-color: #2424d8;
@@ -99,7 +99,7 @@ td {
 }
 .wot{
   width: 68%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 3.61vw;
-  font-weight: 900;text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;color: white;
+  font-weight: 900;text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;color: white;font-family: sans-serif;
 }
 .fri{
   display: inline-block;float: right;
@@ -108,17 +108,17 @@ td {
   float: right;
 }
 .content{
-  font-size: 24px;padding: 0px 55px;
+  font-size: 24px;padding: 0px 55px;font-family: 'Roboto', sans-serif;
 }
 .title{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   padding: 100px 0 30px 10px;
   color: darkblue;
   text-shadow: 0px 1px 1px black;
 }
 .top-t{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   padding-left: 10px;
   margin-top: 5vw;
@@ -144,5 +144,5 @@ td {
   display: inline-block;margin-left: 40px;
 }
 .link{
-  padding-left: 20px;
+  padding-left: 20px;font-family: 'Roboto', sans-serif;
 }
