@@ -54,13 +54,17 @@
   	width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;
   }
   #quote{
-    font-size: 2.95vw;color: #2424d8;font-style: italic;font-family: 'Slabo 27px', serif;font-weight: bold; margin: 1vw 3vw 0 53vw;position: absolute;z-index: 1;text-shadow: 0px 1px 1px black;
+    font-size: 3.1vw;color: #2424d8;font-style: italic;font-family: 'Slabo 27px', serif;font-weight: bold; margin: 1vw 2.7vw 0 53vw;position: absolute;z-index: 1;text-shadow: 0px 1px 1px black;
   }
   #q{
-    left: 0;border-style: outset;background-color: rgba(255, 255, 255, 0.7);position: absolute;margin-top: 3.9vw;
-    text-align: left;font-size: 1.4vw;transform: scaleY(1.5);font-weight: bold;z-index: 1;padding: 0vw .5vw;
+    left: 0;border-style: outset;background-color: rgba(255, 255, 255, 0.7);position: absolute;margin-top: 0.5vw;
+    text-align: left;font-size: 1.8vw;transform: scaleY(1.5);font-weight: bold;z-index: 1;padding: 0vw .5vw;
   }
-  #q > a:hover{color: red;}
+  #qdrop > a:hover{color: red;}
+  #q:hover #qdrop{display: block;}
+  #qdrop{
+    display: none; font-size: 1.4vw; position: absolute; background-color: rgba(255, 255, 255, 0.7); padding: 5px 5px;
+  }
   #v{
     font-size: 3.5vw;font-weight: bold;padding: 30px 0px 10px 10px;color: darkblue;text-shadow: 0px 1px 1px black;
   }
@@ -101,34 +105,31 @@ ga('send', 'pageview');
         </ul>
       </li>
       <li><a href="Logic%20Flaws/index.html">Mistakes</a></li>
-      <li><a href="Personal%20Guidance/index.html">Personal Guidance</a></li>
-      <li><a href="About%20Me/index.html">About Me</a></li>
+      <li><a href="../Personal%20Guidance/index.html">Personal Guidance</a></li>
+      <li><a href="../About%20Me/index.html">About Me</a></li>
     </ul>
   </nav>
 </div>
-  <div id = "q">
-    <span style = "font-size: 2vw; color: #021d47">Links</span><br><a href = "Testing/AP/index.html#aplist">Study Book <br>Recommendations</a><br><br><a href = "Testing/Standardized%20Testing/index.html#calculators">Calculator <br>Recommendations</a><br><br><a href = "#recentlyadded">Recently Added <br>Content</a>
+  <div id = "q">Quick Links <div id = "tr" style = "border-top: .8vw solid black"></div><br><div id = "qdrop"><a href = "Testing/AP/index.html#aplist">Study Book <br>Recommendations</a><br><br><a href = "Testing/Standardized%20Testing/index.html#calculators">Calculator <br>Recommendations</a><br><br><a href = "#recentlyadded">Recently Added <br>Content</a></div>
   </div>
   <div id = "quote">
-     "the great majority of students who are admitted stand out from the rest because a lot of little things, when <span style = "margin-right: 3.5vw">added up, tip the scale in their</span><br>favor"<br><a href = "https://admissions.yale.edu/what-yale-looks-for" style = "font-family: serif; font-weight: normal; font-size: 1.8vw; font-style: normal; text-shadow: none;">-Yale Admissions Website</a>
+     "the great majority of students who are admitted stand out from the rest because a lot of little things, when added up, tip the scale in their favor"<br><a href = "https://admissions.yale.edu/what-yale-looks-for" style = "font-family: serif; font-weight: normal; font-size: 1.8vw; font-style: normal; text-shadow: none;">-Yale Admissions Website</a>
   </div>
     <img style = "width: 100%;height: auto;position: relative;" src = "johns.jpg"></img>
   <div id = "v">
     Why Is This Site Different?
-  </div><br><br>
+  </div><br><br><br>
     <div class = "content">
-      <p>In 2017, 80+% of students who apply to top schools are academically qualified. Colleges choose between students with similar GPA’s, scores, and often times extracurriculars. How do they choose?</p>
+      <p>In 2017, 80+% of students who apply to top schools are academically qualified. Colleges choose between students with similar GPA’s, scores, and often times extracurriculars. How do they choose?</p><div class = "container"><img src = "grad.jpg" style = "width: 50%; display: inline-block; float: right;"><span style = "font-size: 2vw;position: absolute;top: 10vw; left: 48vw; text-align: center;font-weight: 700; width: 45%;">This site, unlike most college admissions sites, focuses on the factors beyond grades, scores, and extra-curriculars that translate to acceptances and bigger merit aid packages.</span></img></div>
 	<p>Beyond grades and scores lie the intangibles that admissions officers look for. Traits like intellectual curiosity and kindness are often the differentiating factors between the student with a 4.0 and 1480 SAT getting accepted over another with a 4.0 and 1480.</p>
   <p>This website shows you how to showcase and leverage the traits that you possess that are the most desirable to admissions officers. </p>
-<span style = "font-weight: bold; color: darkblue">This site, unlike most college admissions sites, focuses on the factors beyond grades, scores, and extra-curriculars that translate to acceptances and bigger merit aid packages.</span>
-</div>
 </div>
   <div class = "content">
   <p>I got into an Ivy League School, Dartmouth College, from that 80% of academically qualified. Nothing I did was extraordinary and I am neither a recruited athlete nor ‘hooked’ applicant (with a compelling major factor in admission ie: minority, first generation, legacy, low income, etc) nor was I even in the top 1% of my public high school.</p>
   <p>Dartmouth accepts 10% of applicants. They differentiate through these intangibles.</p>
   <p>I see students work hard all through high school only to neglect to show these desired qualities to colleges. They fail to understand these nuances and, so, become one of the many 'academically qualified' rejects. </p>
   <p> It is my goal to educate you on the intangibles and nuances that differentiate college applicants.</p>
-    </div>
+</div><br><br>
     <div class = "title">
       <p>Site Structure</p>
     </div>
