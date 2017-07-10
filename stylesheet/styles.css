@@ -14,12 +14,12 @@ ul.share-buttons img{
   width: 2vw;}
   .nav > ul {margin: 0px;padding: 0px;display: flex;}
   .nav > ul > li{list-style-type: none; white-space: nowrap;}
-  .nav{position: fixed; z-index: 3; top: 0;right: 0; background-color: rgba(122, 122, 122, 0.85);border-bottom-style: solid; border-width: thin; width: 100%;}
+  .nav{position: fixed; z-index: 3; top: 0;right: 0; background-color: rgba(0, 0, 0, 0.8);border-bottom-style: solid; border-width: thin; width: 100%;}
   .nav > ul a{
     color: white; text-decoration: none;font-size: 1.4vw;margin: 0px;padding: 1vw 2.7vw;display: inline-block;
   font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;font-family: 'Roboto', sans-serif;}
   .nav > ul > li:hover,  ul.sub-nav li:hover{background-color: #2424d8;}
-  ul.sub-nav{position: absolute;list-style-type: none;display: none;text-align: center;padding: 5px 0px; background-color: rgba(122, 122, 122, 0.9);}
+  ul.sub-nav{position: absolute;list-style-type: none;display: none;text-align: center;padding: 5px 0px; background-color: rgba(0, 0, 0, 0.8);}
   .nav li:hover .sub-nav{display: block;}
   #tr{
     width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;}
