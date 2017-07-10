@@ -1,6 +1,6 @@
 body {
-  background-color: #eaeaea;margin: 0;padding: 0px 0px;
-  background-image: url("school.png"); font-family: sans-serif;}
+  background-image: url(45.png);margin: 0;padding: 0px 0px;
+  font-family: sans-serif;}
 ul.share-buttons{
   list-style: none;padding: 0px;}
 ul.share-buttons li{
@@ -12,29 +12,17 @@ ul.share-buttons img{
   width: 70px;padding: 0px 25px;margin: 0px 15px;}
 #home{
   width: 2vw;}
-#tri {
-	width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;
-	border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;}
-ul.sub-nav{
-  position: absolute;background-image: url("chalkboard.jpg");list-style-type: none;
-  display: none;text-align: center;padding: 5px 10px;}
-.nav1 li:hover .sub-nav{
-  display: block;}
-ul.sub-nav li:hover{
-  background-color: #2424d8;}
-.nav1 > ul {
-     margin: 0px;padding: 0px;display: flex;}
-.nav1 > ul > li{
-    list-style-type: none;white-space: nowrap;}
-.nav1{
-  position: fixed;width: 100%;z-index: 1;top: 0;
-  background-image: url("chalkboard.jpg"); /*background pattern from Subtle Patterns*/}
-.nav1 > ul a{
-  color: white;text-decoration: none;font-size: 2.035vw;margin: 0px;padding: .8vw 1.8vw;
-  display: inline-block;transform: scaleY(1.15);font-weight: lighter;
-  text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;font-family: 'Roboto', sans-serif;}
-.nav1 > ul > li:hover {
-  background-color: #2424d8;}
+  .nav > ul {margin: 0px;padding: 0px;display: flex;}
+  .nav > ul > li{list-style-type: none; white-space: nowrap;}
+  .nav{position: fixed; z-index: 3; top: 0;right: 0; background-color: rgba(122, 122, 122, 0.85);border-bottom-style: solid; border-width: thin; width: 100%;}
+  .nav > ul a{
+    color: white; text-decoration: none;font-size: 1.4vw;margin: 0px;padding: 1vw 2.7vw;display: inline-block;
+  font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;font-family: 'Roboto', sans-serif;}
+  .nav > ul > li:hover,  ul.sub-nav li:hover{background-color: #2424d8;}
+  ul.sub-nav{position: absolute;list-style-type: none;display: none;text-align: center;padding: 5px 0px; background-color: rgba(122, 122, 122, 0.9);}
+  .nav li:hover .sub-nav{display: block;}
+  #tr{
+    width: 0;height: 0;border-left: .5vw solid transparent;border-right: .5vw solid transparent;border-top: .8vw solid white;display: inline-flex;padding-bottom: .4vw;}
 .dropdown{
   color: white;display: inline-flex;margin-left: -1.4vw;}
 ul.sub-nav li{color: white;}
@@ -48,17 +36,17 @@ table, th, td {
 th {text-align: center;font-size: 2.1vw;}
 td {font-size: 1.4vw;background-color: white;text-align: center;}
 .wot{
-  width: 68%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 3.61vw;
+  width: 68%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 3vw;
   font-weight: 900;text-shadow: 0px 3px 3px #000, -1px -1px #000, 1px 1px #000;color: white;
   font-family: sans-serif;}
 .fri{display: inline-block;float: right;}
 .fr{float: right;}
-.content{font-size: 24px;padding: 0px 55px;font-family: 'Roboto', sans-serif;}
+.content{font-size: 24px;padding: 0px 100px;font-family: 'Roboto', sans-serif;}
 .title{
-  font-size: 40px;font-weight: bold;padding: 100px 0 30px 10px;color: darkblue;
+  font-size: 40px;font-weight: bold;padding: 100px 0 30px 30px;color: darkblue;
   text-shadow: 0px 1px 1px black;}
 .top-t{
-  font-size: 40px;font-weight: bold;padding-left: 10px;margin-top: 5vw;padding-bottom: 20px;
+  font-size: 40px;font-weight: bold;padding-left: 30px;margin-top: 5vw;padding-bottom: 20px;
   color: darkblue;text-shadow: 0px 1px 1px black;}
 .ta{
   width: 3%;position: absolute;top: 80%;left: 50%;transform: translate(-50%, -50%);}
@@ -68,3 +56,4 @@ td {font-size: 1.4vw;background-color: white;text-align: center;}
 .cd{font-size: 13px;padding-left: 10px;color: gray;font-family: serif;}
 .book{display: inline-block;margin-left: 40px;}
 .link{padding-left: 20px;font-family: 'Roboto', sans-serif;}
+.box{background-color: white; margin: 0px 6vw; padding-bottom: 5vw; border-style: ridge;;}
