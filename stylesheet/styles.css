@@ -58,4 +58,4 @@ td {font-size: 1.4vw;background-color: white;text-align: center;}
 .link{padding-left: 20px;font-family: 'Roboto', sans-serif;}
 .box{background-color: white; margin: 0px 6vw; padding-bottom: 5vw; border-style: ridge;;}
 @media only screen and (max-device-width: 480px) {
-  .nav > ul a{font-weight: bold; font-size: 1.7vh !important; padding: 2.5vh 1.1vw !important;}
+  .nav > ul a{font-size: 1.55vh !important; padding: 2.5vh 1vw !important;}
