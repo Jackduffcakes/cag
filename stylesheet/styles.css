@@ -28,7 +28,7 @@ ul.share-buttons img{
 ul.sub-nav li{color: white;}
 #p{
   float: right;border-style: outset;border-radius: 1vw;background-color: rgba(255, 255, 255, 0.5);
-  position: relative;text-align: center;font-size: 1.4vw;transform: scaleY(1.95);font-weight: bold;}
+  position: relative;text-align: center;font-size: 1.4vw;transform: scaleY(1.95);font-weight: bold; margin-right: -6vw;margin-top: -2vw;}
 #p > a:hover, .link > a:hover, td > a:hover{color: red;}
 .container{position: relative;}
 table, th, td {
