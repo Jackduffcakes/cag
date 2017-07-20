@@ -2,24 +2,24 @@ body {
   background-image: url(45.png);margin: 0;padding: 0px 0px;
   font-family: sans-serif;}
 ul.share-buttons{
-  list-style: none;padding: 0px;}
+  list-style: none;padding: 0px;float: right}
 ul.share-buttons li{
   display: inline;}
 ul.share-buttons .sr-only {
   position: absolute;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);
   padding: 0px;border: 0;height: 1px;width: 1px;overflow: hidden;}
 ul.share-buttons img{
-  width: 70px;padding: 0px 25px;margin: 0px 15px;}
+  width: 50px;padding: 0vw 1vw;margin: 0px;}
 #home{
   width: 2vw;}
   .nav > ul {margin: 0px;padding: 0px;display: flex;}
   .nav > ul > li{list-style-type: none; white-space: nowrap;}
-  .nav{position: fixed; z-index: 3; top: 0;right: 0; background-color: rgba(0, 0, 0, 0.8); width: 100%;}
+  .nav{position: fixed; z-index: 3; top: 0;right: 0; background-color: rgb(12, 43, 94); width: 100%;}
   .nav > ul a{
-    color: white; text-decoration: none;font-size: 22px;margin: 0px;padding: 2.5vh 2.5vw;display: inline-block;
-  font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;font-family: 'Roboto', sans-serif;}
-  .nav > ul > li:hover,  ul.sub-nav li:hover{background-color: #2424d8;}
-  ul.sub-nav{position: absolute;list-style-type: none;display: none;text-align: center;padding: 0px 0px; background-color: rgba(0, 0, 0, 0.8);}
+    color: white; text-decoration: none;font-size: 20px;margin: 0px;padding: 2.5vh 2.5vw;display: inline-block;
+  font-weight: lighter;text-shadow: 0px 1px 1px black, -1px -1px black, 1px 1px black;font-family: 'Roboto', sans-serif; font-weight: 300;}
+  .nav > ul > li:hover,  ul.sub-nav li:hover{background-color: darkblue;}
+  ul.sub-nav{position: absolute;list-style-type: none;display: none;text-align: center;padding: 0px 0px; background-color: rgb(12, 43, 94);}
   .nav li:hover .sub-nav{display: block;}
   #tr{
     width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 7px solid white;display: inline-flex;}
@@ -29,11 +29,11 @@ ul.sub-nav li{color: white;}
 #p{
   float: right;border-style: outset;border-radius: 1vw;background-color: rgba(255, 255, 255, 0.5);
   position: relative;text-align: center;font-size: 1.4vw;transform: scaleY(1.95);font-weight: bold; margin-right: -6vw;margin-top: -2vw}
-#p > a:hover, .link > a:hover, td > a:hover{color: red;}
+#p > a:hover, .link > a:hover, td > a:hover{color: rgb(12, 43, 94);}
 .container{position: relative;}
 table, th, td {
-    border: 2px solid black;background-color: #649ffc;border-collapse: collapse;border-spacing: 0;}
-th {text-align: center;font-size: 2.1vw;}
+    border: 2px solid black;background-color: rgb(12, 43, 94);border-collapse: collapse;border-spacing: 0; font-weight: normal;}
+th {text-align: center;font-size: 2.1vw; color: white}
 td {font-size: 1.4vw;background-color: white;text-align: center;}
 .wot{
   width: 68%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);font-size: 3vw;
@@ -41,19 +41,18 @@ td {font-size: 1.4vw;background-color: white;text-align: center;}
   font-family: sans-serif;}
 .fri{display: inline-block;float: right;}
 .fr{float: right;}
-.content{font-size: 23px;padding: 0px 100px;font-family: 'Roboto', sans-serif;}
+.content{font-size: 21px;padding: 0px 50px;font-family: 'Roboto', sans-serif;}
 .title{
-  font-size: 40px;font-weight: bold;padding: 100px 0 30px 30px;color: darkblue;
-  text-shadow: 0px 1px 1px black;}
+  font-size: 55px;font-weight: bold;padding: 75px 0px 0px 50px;}
 .top-t{
-  font-size: 40px;font-weight: bold;padding-left: 30px;margin-top: 9vh;padding-bottom: 10px;
-  color: darkblue;text-shadow: 0px 1px 1px black;}
+  font-size: 55px;font-weight: bold;padding-left: 50px;margin-top: 10vh;padding-bottom: 10px;}
 .ta{
   width: 3%;position: absolute;top: 80%;left: 50%;transform: translate(-50%, -50%);}
 .fr:hover, .fl:hover, .book > a:hover, ul.share-buttons img:hover, .ta:hover{opacity: 0.7;}
 .fl{float: left;}
-.cdt{padding: 100px 0 0 10px;font-size: 22px;font-weight: bold;color: gray;font-family: serif;}
-.cd{font-size: 13px;padding-left: 10px;color: gray;font-family: serif;}
+.cd{font-family: serif;margin: 0vw 5vw 2vw 10px;font-size: 13px;color: gray; width: 40%; display: inline-block;}
+.ct{font-family: serif;margin: 0vw 0vw 0vw 10px;font-size: 13px;color: gray; width: 95%;}
+.ig{font-family: serif;margin: 0vw 2vw 0 3vw;font-size: 23px;color: gray; display: inline-block;}
 .book{display: inline-block;margin-left: 40px;}
 .link{padding-left: 20px;font-family: 'Roboto', sans-serif;}
 .box{background-color: white; margin: 0px 6vw; padding-bottom: 5vw; border-style: ridge;;}
