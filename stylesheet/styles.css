@@ -61,4 +61,6 @@ td {font-size: 1.4vw;background-color: white;text-align: center;}
 .box{background-color: white; margin: 0px 6vw; padding-bottom: 5vw; border-style: ridge;;}
 @media only screen and (max-device-width: 480px) {
   .nav > ul a{font-size: 1.6vh !important; padding: 2.5vh 1vw !important;}
-  #ex a #exp{width: 90%}}
+  #ex a #exp{width: 90%}
+  #o{display: none;}
+}
