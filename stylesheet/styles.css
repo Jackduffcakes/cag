@@ -25,7 +25,10 @@ ul.share-buttons img{
     width: 0;height: 0;border-left: 5px solid transparent;border-right: 5px solid transparent;border-top: 7px solid white;display: inline-flex;}
 .dropdown{
   color: white;display: inline-flex;margin-left: -1.4vw;}
-ul.sub-nav li{color: white;}
+#ex a:hover #exp{display: block}
+.sub-nav li{color: white;}
+#ex a #exp{font-size: 19px;color: white;position: absolute; right: 5;width: 60%; text-align: center;z-index: 3;display: none;text-align: center;padding: 20px 20px; background-color: rgb(12, 43, 94); font-weight: 300;}
+#ex{display: inline;}
 #p{
   float: right;border-style: outset;border-radius: 1vw;background-color: rgba(255, 255, 255, 0.5);
   position: relative;text-align: center;font-size: 1.4vw;transform: scaleY(1.95);font-weight: bold; margin-right: -6vw;margin-top: -2vw}
@@ -58,3 +61,4 @@ td {font-size: 1.4vw;background-color: white;text-align: center;}
 .box{background-color: white; margin: 0px 6vw; padding-bottom: 5vw; border-style: ridge;;}
 @media only screen and (max-device-width: 480px) {
   .nav > ul a{font-size: 1.6vh !important; padding: 2.5vh 1vw !important;}
+  #ex a #exp{width: 90%}}
