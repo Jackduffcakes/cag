@@ -29,6 +29,11 @@ ul.share-buttons img{
 .sub-nav li{color: white;}
 #ex a #exp{font-size: 19px;color: white;position: absolute; right: 5;width: 60%; text-align: center;z-index: 3;display: none;text-align: center;padding: 20px 20px; background-color: rgb(12, 43, 94); font-weight: 300;}
 #ex{display: inline;}
+#tc{
+  text-align: center;
+}
+#wmp{width: 85%}
+#intc{width: 80%; display: inline-block; border-style: solid; margin: 0 auto;}
 #p{
   float: right;border-style: outset;border-radius: 1vw;background-color: rgba(255, 255, 255, 0.5);
   position: relative;text-align: center;font-size: 1.4vw;transform: scaleY(1.95);font-weight: bold; margin-right: -6vw;margin-top: -2vw}
@@ -63,4 +68,6 @@ td {font-size: 1.4vw;background-color: white;text-align: center;}
   .nav > ul a{font-size: 1.6vh !important; padding: 2.5vh 1vw !important;}
   #ex a #exp{width: 90%}
   #o{display: none;}
+  #wmp{width: 100%}
+  #intc{width: 100%}
 }
